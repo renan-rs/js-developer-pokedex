@@ -1,0 +1,137 @@
+.normal-flat {background-color: #a6a877;}
+.grass-flat {background-color: #77c850;}
+.fire-flat {background-color: #ee7f30;}
+.water-flat {background-color: #678fee;}
+.electric-flat {background-color: #f7cf2e;}
+.ice-flat {background-color: #98d5d7;}
+.ground-flat {background-color: #dfbf69;}
+.flying-flat {background-color: #a98ff0;}
+.poison-flat {background-color: #a040a0;}
+.fighting-flat {background-color: #bf3029;}
+.psychic-flat {background-color: #f65687;}
+.dark-flat {background-color: #725847;}
+.rock-flat {background-color: #b8a137;}
+.bug-flat {background-color: #a8b720;}
+.ghost-flat {background-color: #6e5896;}
+.steel-flat {background-color: #b9b7cf;}
+.dragon-flat {background-color: #6f38f6;}
+.fairy-flat {background-color: #f9aec7;}
+
+.normal {
+    background-color: #a6a877;
+    background: linear-gradient(215deg, #9b9d6b 29.9%, #83855d 80%), linear-gradient(304deg, rgb(44 33 33 / 40%) 24.9%, #686852 91%), linear-gradient(10deg, #a6a877 19.9%, #ffffff 50%), linear-gradient(145deg, #a6a877 15.9%, #701648 40%);
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light;
+}
+.grass {
+    background-color: #77c850;
+    background: linear-gradient(215deg, #679f4c 29.9%, #357416 80%), linear-gradient(304deg, rgb(44 33 33 / 40%) 24.9%, #21500b 91%), linear-gradient(10deg, #77c850 19.9%, #ffffff 50%), linear-gradient(145deg, #77c850 15.9%, #ff1b9a 40%);
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light;
+}
+
+.fire {
+    background-color: #ee7f30;
+    background: linear-gradient(215deg, #b36731 29.9%, #ff822a 80%), linear-gradient(304deg, rgb(44 33 33 / 40%) 24.9%, #af581a 91%), linear-gradient(10deg, #ee7f30 19.9%, #ffffff 50%), linear-gradient(145deg, #ee7f30 15.9%, #ff1b9a 40%);
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light;
+}
+
+.water {
+    background-color: #678fee;
+    background: linear-gradient(215deg, #556793 29.9%, #475985 80%), linear-gradient(304deg, rgb(44 33 33 / 40%) 24.9%, #678fee 91%), linear-gradient(10deg, #678fee 19.9%, #ffffff 50%), linear-gradient(145deg, #678fee 15.9%, #ff1b9a 40%);
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light;
+}
+
+.electric {
+    background-color: #f7cf2e;
+    background: linear-gradient(215deg, #ddc152 29.9%, #8d8463 80%), linear-gradient(304deg, rgb(44 33 33 / 40%) 24.9%, #666045 91%), linear-gradient(10deg, #f7cf2e 19.9%, #ffffff 50%), linear-gradient(145deg, #f7cf2e 15.9%, #ff0092 40%);
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light;
+}
+
+.ice {
+    background-color: #98d5d7;
+    background: linear-gradient(215deg, #68c6cb 29.9%, #2b6768 80%), linear-gradient(304deg, rgb(44 33 33 / 40%) 24.9%, #2f7c7e 91%), linear-gradient(10deg, #98d5d7 19.9%, #39e2e7 50%), linear-gradient(145deg, #98d5d7 15.9%, #871c5c 40%);
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light;
+}
+
+.ground {
+    background-color: #dfbf69;
+    background: linear-gradient(215deg, #bfa560 29.9%, #b3aea2 80%), linear-gradient(304deg, rgb(44 33 33 / 40%) 24.9%, #706a5a 91%), linear-gradient(10deg, #dfbf69 19.9%, #ffffff 50%), linear-gradient(145deg, #dfbf69 15.9%, #ff1b9a 40%);
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light;
+}
+
+.flying {
+    /*default - no flying as primary type until the 151 pokemon*/
+    background-color: #a98ff0;
+}
+
+.poison {
+    background-color: #a040a0;
+    background: linear-gradient(215deg, #913c91 29.9%, #663666 80%), linear-gradient(304deg, rgb(44 33 33 / 40%) 24.9%, #a040a0 91%), linear-gradient(10deg, #a040a0 19.9%, #ffffff 50%), linear-gradient(145deg, #a040a0 15.9%, #99547a 40%);
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light;
+}
+
+.fighting {
+    background-color: #bf3029;
+    background: linear-gradient(215deg, #97534f 29.9%, #664645 80%), linear-gradient(304deg, rgb(44 33 33 / 40%) 24.9%, #6a2d2b 91%), linear-gradient(10deg, #bf3029 19.9%, #ffffff 50%), linear-gradient(145deg, #bf3029 15.9%, #d36ba4 40%);
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light;
+}
+
+.psychic {
+    background-color: #f65687;
+    background: linear-gradient(215deg, #ab7283 29.9%, #663746 80%), linear-gradient(304deg, rgb(44 33 33 / 40%) 24.9%, #743b4d 91%), linear-gradient(10deg, #f65687 19.9%, #ffffff 50%), linear-gradient(145deg, #f65687 15.9%, #42172f 40%);
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light;
+}
+
+.dark {
+    /*default - no dark as primary type until the 151 pokemon*/
+    background-color: #725847;
+}
+
+.rock {
+    background-color: #b8a137;
+    background: linear-gradient(215deg, #877a3f 29.9%, #564b19 80%), linear-gradient(304deg, rgb(44 33 33 / 40%) 24.9%, #666045 91%), linear-gradient(10deg, #b8a137 19.9%, #fff2b8 50%), linear-gradient(145deg, #b8a137 15.9%, #dfc1c1 40%);
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light;
+}
+
+.bug {
+    background-color: #a8b720;
+    background: linear-gradient(215deg, #929951 29.9%, #4b5207 80%), linear-gradient(304deg, rgb(44 33 33 / 40%) 24.9%, #828570 91%), linear-gradient(10deg, #a8b720 19.9%, #889323 50%), linear-gradient(145deg, #a8b720 15.9%, #ffafaf 40%);
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light;
+}
+
+.ghost {
+    background-color: #6e5896;
+    background: linear-gradient(215deg, #51387c 29.9%, #231936 80%), linear-gradient(304deg, rgb(44 33 33 / 40%) 24.9%, #46297a 91%), linear-gradient(10deg, #6e5896 19.9%, #9479c7 50%), linear-gradient(145deg, #6e5896 15.9%, #f1e2e2 40%);
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light;
+}
+
+.steel {
+    /*default - no steel as primary type until the 151 pokemon*/
+    background-color: #b9b7cf;
+}
+
+.dragon {
+    background-color: #6f38f6;
+    background: linear-gradient(215deg, #6a50ad 29.9%, #6023f7 80%), linear-gradient(304deg, rgb(44 33 33 / 40%) 24.9%, #7153bd 91%), linear-gradient(10deg, #6a30ff 19.9%, #f8f5ff 50%), linear-gradient(145deg, #aa87ff 15.9%, #ffb8b8 40%);
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light;
+}
+
+.fairy {
+    background-color: #f9aec7;
+    background: linear-gradient(215deg, #e59ab3 29.9%, #683b4a 80%), linear-gradient(304deg, rgb(44 33 33 / 40%) 24.9%, #bf92a1 91%), linear-gradient(10deg, #f9729f 19.9%, #c99baa 50%), linear-gradient(145deg, #f9aec7 15.9%, #e9b8b8 40%);
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light;
+}
