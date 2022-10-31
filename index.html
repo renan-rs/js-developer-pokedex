@@ -26,17 +26,35 @@
 
 <body>
     <section class="content">
-        <h1>Pokedex</h1>
 
-        <ol id="pokemonList" class="pokemons">
-            <!-- ..... Pokemons here ..... -->
-        </ol>
-
-        <div class="pagination">
-            <button id="loadMoreButton" type="button">
-                Load More
-            </button>
+        <div class="pokemonList-wrapper">
+            <div class="pokedex-header">
+                <h1>Pokedex</h1>
+                <div class="leds">
+                    <img src="assets/imgs/btnbubble.svg" alt="pokedex leds"/>
+                    <span class="led led-red"></span>
+                    <span class="led led-yellow"></span>
+                    <span class="led led-green"></span>
+                </div>
+                
+            </div>
+            <div class="pokemonList-content">
+                <div>
+                    <ol id="pokemonList" class="pokemons">
+                        <!-- ..... Pokemons here ..... -->
+                    </ol>
+                </div>
+            </div>
+            <div class="pokedex-controls">
+                <div class="pagination">
+                    <button id="loadMoreButton" type="button">
+                        Load More
+                    </button>
+                </div>
+                <img src="assets/imgs/joystickarrows.png" alt="joystick arrows"/>
+            </div>
         </div>
+
     </section>
     <!-- Details Pokemon Modal -->
     <div class="modal" id="modalDetail">
