@@ -42,8 +42,14 @@
     background: radial-gradient(circle at bottom, #aba771, #b9bb52 10%, #85872b 80%, #684d00 100%);
 }
 .led-green{
-    background-color: green;
-    background: radial-gradient(circle at bottom, #ffffff, #fbff8d 10%, #2fc52c 80%, #238b2b 100%);
+    background-color: rgb(255, 255, 255);
+    /* background: radial-gradient(circle at bottom, #ffffff, #fbff8d 10%, #2fc52c 80%, #238b2b 100%); */
+    animation: mymove 2s infinite;
+}
+@keyframes mymove {
+    0% {background: radial-gradient(circle at bottom, #ffffff, #fbff8d 10%, #2fc52c 80%, #238b2b 100%)}
+    50% {background: radial-gradient(circle at top, #ffffff, #fbff8d 10%, #3b8d4d 80%, #dbdbdb 100%)}
+    100% {background: radial-gradient(circle at top, #ffffff, #fbff8d 10%, #3b8d4d 80%, #dbdbdb 100%)}
 }
 .pokedex-header img{
     order:0;
